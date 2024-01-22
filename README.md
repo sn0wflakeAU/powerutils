@@ -13,7 +13,7 @@ This *could* run on a Raspberry Pi Zero without the wireless (W), but we haven't
 
 - Any compatible display, such as the [Waveshare e-ink display](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT) officially supported by the Pwnagotchi project.
 - GPIO buttons to run the commands from
-- or the [Pwnmenu Plugin](https://gitlab.com/sn0wflake/pwnagotchi-pwnmenu-plugin)
+- or the [Pwnmenu Plugin](https://github.com/sn0wflakeAU/pwnmenu)
 
 From here on, the complete working RPi0w with the Pwnagotchi system running on it will simply be referred to as "Pwnagotchi".
 
@@ -73,26 +73,23 @@ powerutils simply listens for the data 'shutdown' and 'restart-' or 'reboot-' va
 
 ## License
 
-This plugin is released under the MIT license.
+This plugin is released under the GPLv3 license.
+
 
 ```
-Copyright (c) 2022 Sam Allen "sn0wflake" <samjanis@mirrorisland.com>
+powerutils - A power management plugin for the pwnagotchi. Can be used with the pwnmenu plugin or on its own.
+Copyright (C) 2024 Sam "sn0wflake" Allen <steampunkscientist1850@gmail.com>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
